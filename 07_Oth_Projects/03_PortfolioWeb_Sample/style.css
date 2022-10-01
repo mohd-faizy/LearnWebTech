@@ -1,0 +1,365 @@
+/* -------------------------------------------------------------------------------------------- */
+/* index.html */
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0
+}
+
+/* class container */
+.container{
+    display: flex;
+}
+
+/* class sidebar */
+.sidebar{
+    background-color: rgb(231, 231, 231);
+    /* width: 20vw; */
+    height: 100vh;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+    transition: transform 0.3s ease-in; 
+    position: absolute
+}
+
+.sidebar nav{
+    padding: 45px;
+}
+
+.sidebar nav li{
+    list-style: none;
+    font-size: 28px;
+    padding: 33px 0;
+}
+
+.sidebar nav li a{
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+}
+
+/* class main */
+.main{
+    /* background-color: rgb(218, 218, 218); */
+    width: 90vw;
+    
+}
+
+/* class infoContainer */
+.infoContainer{
+    height: 58vh;
+    width: 82vw;
+    border-radius: 40px;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+/* class devInfo */
+.devInfo{
+    font-size: 20px;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+.hello{
+    font-size: 3em;
+}
+
+.name{
+    font-size: 3em;
+    font-weight: bold;
+    font-family: 'Fira Sans', sans-serif;
+}
+    
+.about{
+    font-size: 2.5em;
+}
+
+.more-about{
+    font-size: 1.5em;
+    margin-top: 23px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+/* class buttons */
+.buttons{
+    margin-top: 2.2em;
+    font-size: 16px;
+}
+
+.btn button {
+    padding: 7px 13px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    width: 85px;
+    font-size: 10px;
+    margin: 10px 0;
+    cursor: pointer;
+}
+
+
+.btn{
+    padding: 9px 14px;
+    border-radius: 22px;
+    color: white;
+    background-color: dodgerblue;
+    font-weight: bold;
+    font-size: 1em;
+    margin: 0 3px;
+    cursor: pointer;
+}
+
+.btn-sm{
+    font-size: 16px;
+    padding: 7px 13px;
+    margin: 10px 0;
+}
+
+.btn button:hover {
+    background-color: white;
+    color: dodgerblue;
+}
+
+/* class devPic */
+.devPic img{
+    height: 58vh;
+}
+
+/* -------------------------------------------------------------------------------------------- */
+/* contact.html */
+
+/* .contactfrom {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 0 34px;
+    padding-top: 144px;
+} */
+
+/* contact form */
+.contactform{
+    padding: 0 34px;
+    padding-top: 144px;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 0 88px;
+}
+
+.contactform h1{
+    font-family: 'Source Code Pro', monospace;
+    /* padding: 12px 0; */
+}
+
+.contactform form div{
+    margin-top: 20px;
+    margin-bottom: 8px;
+    margin-right: 280px;
+    margin-left: -8px;
+    display: flex;
+    flex-direction: column;
+}
+
+.contactform form div input{
+    /* width: 25vw; */
+    border-radius: 10px;
+    margin: 6px 0 0 0;
+    padding: 10px;  
+}
+
+.contactform form {
+    margin: 0 40px;
+}
+
+/* here hash is used target the id */
+#emailHelp{
+    font-size: 18px;
+    font-weight: bold;
+    color: rgb(207, 69, 69);
+    margin: 0 0px;
+}
+
+#form-check{
+    flex-direction: row;
+}
+
+#form-check input{
+    width: 28px;
+    margin: 0 6px;
+}
+
+/* -------------------------------------------------------------------------------------------- */
+/* blog.html */
+
+.blogContainer{
+    margin: 40px 88px;
+}
+
+.blogContainer h1{
+    margin-top: 23px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.blogItem{
+    margin: 20px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.blogItem h2{
+    font-size: 25px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+
+}
+
+.blogItem p{
+    font-size: 20px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+/* -------------------------------------------------------------------------------------------- */
+/* about.html */
+/* aboutContainer*/
+.aboutContainer{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 10px 88px;
+}
+
+.aboutContainer h1{
+    margin-left: 23px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.aboutContainer p{
+    font-size: 20px;
+    margin-left: 43px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+/* skillContainer */
+.skillsContainer{
+    font-size: 25px;
+    margin: 0 35px;
+    padding: 12px;
+}
+
+.skillItem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro', monospace;
+    font-weight: bold;
+}
+
+.skill{
+    height: 10px;
+    width: 256px;
+    border: 2px solid black;
+}
+
+.t100 {
+    margin-left: 96px;
+    width: 256px;
+    background-color: royalblue;
+}
+
+.t50 {
+    margin-left: 111px;
+    width: 128px;
+    background-color: crimson;
+}
+
+.t25 {
+    margin-left: 7px;
+    width: 64px;
+    background-color: cyan;
+}
+
+.t45 {
+    margin-left: 112px;
+    width: 174px;
+    background-color: rgb(140, 0, 255);
+}
+
+.t55 {
+    margin-left: 67px;
+    width: 220px;
+    background-color: rgb(255, 0, 234);
+}
+/* -------------------------------------------------------------------------------------------- */
+/* service.html */
+
+.serviceContainer {
+    margin: 0 88px;
+}
+
+.serviceContainer h1 {
+    padding: 20px;
+    margin-left: 10px;
+    font-family: 'Source Code Pro', monospace;
+}
+
+.serviceContainer h2 {
+    font-size: 25px;
+    margin-left: 40px;
+    font-weight: bold;
+    font-family: 'Source Code Pro', monospace;
+}
+
+
+.serviceContainer p {
+    font-size: 20px;
+    padding: 10px 5px;
+    margin-left: 62px;
+    font-family: 'Source Code Pro', monospace;
+}
+/* -------------------------------------------------------------------------------------------- */
+/* hamburger menu */
+
+.sidebarGo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+}
+
+.ham-burger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+}
+
+.ham{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.cross{
+    margin-left: 160px;
+    margin-top: 10px;
+}
+
+
+/* this media query will trigger as the soon as the screen size hits 1300px */
+@media (max-width: 1300px) {
+/* *{
+    background-color: rgb(255, 131, 131);
+} */
+.buttons{
+    font-size: 10px;
+}
+/* this will adjust the font size automatically when the screen size is swithched */
+.devInfo{
+    font-size: 10px
+}
+/* this will make the devPic to disapper when the screen size is switch to small size */
+.devPic{
+    display: none;
+}
+.aboutContainer, .blogContainer, .contactform, .serviceContainer{
+    margin: 50px 8px;
+}
+}
