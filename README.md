@@ -2,7 +2,7 @@
 
 <p align='center'>
   <a href="#">
-    <img src='_img\01_WebTech.gif' alt="">
+    <img src='_img\01_WebTech.png' alt="">
   </a>
 </p>
 
