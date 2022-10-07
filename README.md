@@ -6,9 +6,4 @@
   </a>
 </p>
 
-<p align='center'>
-  <a href="#">
-    <img src='_img\02_web.png' alt="">
-  </a>
-</p>
 
